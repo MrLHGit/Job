@@ -1,0 +1,447 @@
+.top {
+	position: relative;
+	margin: 0 auto;
+	z-index: 30;
+	background-color: #e72e12;
+}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.bg {
+	display: block;
+	width: 100%;
+	height: 80px;
+	background: url(../img/21e79566a2bfabe3.jpg);
+	color: #666;
+	text-decoration: none;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 14px;
+	color: rgb(45, 45, 45);
+	opacity: 0.3;
+	width: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.menu {
+	border-bottom: 1px solid #ddd;
+	background-color: #e3e4e5;
+}
+
+.menu .w {
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+}
+
+
+
+.f1 {
+	float: left;
+}
+
+.menu li {
+	float: left;
+}
+
+.location {
+	position: relative;
+	z-index: 21;
+	margin-left: 200px;
+}
+
+.wap {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	float: left;
+	border: 1px solid #e3e4e5;
+	padding-left: 7px;
+	padding-right: 7px;
+	height: 28px;
+	line-height: 28px;
+}
+
+.i_f {
+	font-family: iconfont;
+	font-style: normal;
+	font-size: 14px;
+	color: #f10215;
+	margin-right: 4px;
+}
+
+.di {
+	cursor: pointer;
+}
+
+.di:hover {
+	color: #f10215;
+}
+
+.fr {
+	float: right;
+}
+
+.fr li {
+	float: left;
+}
+
+.login {
+	margin-right: 8px;
+	z-index: 20;
+	position: relative;
+}
+
+.link-login:hover {
+	color: #f10215;
+}
+
+.menu a {
+	color: #999;
+}
+
+.login .link-regist {
+	color: #f10215;
+}
+
+.spacer {
+	height: overflow: hidden;
+	margin: 11px 5px 0;
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+
+}
+
+.dt {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.dt a:hover {
+	color: #f10215;
+}
+
+#herder .w {
+	position: relative;
+	z-index: 11;
+	height: 140px;
+}
+
+#logo {
+	z-index: 2;
+	left: 0;
+	top: -31px;
+	width: 190px;
+	height: 170px;
+	box-shadow: 0 -12px 10px rgba(0, 0, 0, .2);
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+}
+
+.logo-dog {
+	height: 100%;
+	width: 100%;
+
+}
+
+.logo-dog-bg {
+	background: url(../img/sprite.head.png) no-repeat;
+	ackground-position: 0 0;
+	overflow: hidden;
+	display: block;
+	width: 190px;
+	height: 170px;
+}
+
+.search-m {
+	position: relative;
+	z-index: 1;
+	height: 60px;
+}
+
+.search-m .form {
+	position: absolute;
+	left: 320px;
+	top: 25px;
+	width: 550px;
+	height: 35px;
+}
+
+.photo-search-btn {
+	position: absolute;
+	right: 65px;
+	top: 10px;
+	width: 19px;
+	height: 15px;
+	overflow: hidden;
+
+}
+
+.photo-search-btn .upload-bg {
+	display: block;
+	width: 19px;
+	height: 15px;
+	background: url(../img/sprite-photo-search.png) no-repeat;
+	cursor: pointer;
+}
+
+.photo-search-btn .upload {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 3;
+	width: 500px;
+	height: 500px;
+	cursor: pointer;
+	opacity: 0;
+	background: url(../img/sprite-photo-search.png) no-repeat;
+	background-position: 470px 0px;
+}
+
+.photo-search-btn .upload:hover {
+	background: url(../img/sprite-photo-search.png) no-repeat;
+	background-position: 451px 0px;
+	opacity: 1;
+
+}
+
+.search-m .button {
+	border-radius: 0;
+	right: 0;
+	width: 50px;
+	height: 35px;
+	line-height: 35px;
+	border: none;
+	background-color: #f10215;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+.search-m .button .iofont {
+	color: #FFFFFF;
+}
+
+.iofont {
+	font-family: iconfont;
+	font-style: normal;
+}
+
+#trolley .cw-icon {
+	width: 188px;
+	height: 33px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 28px;
+}
+
+.cw-icon {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	float: left;
+	border: 1px solid #e3e4e5;
+}
+
+#trolley .ci-count {
+	position: absolute;
+	top: 5px;
+	left: 140px;
+	right: auto;
+	display: inline-block;
+	padding: 1px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #fff;
+	background-color: #f10215;
+	border-radius: 7px;
+	min-width: 12px;
+	text-align: center;
+}
+
+#trolley .cw-icon a {
+	color: #f10214;
+}
+
+#trolley .iofont {
+	font-size: 25px;
+	color: #f10214;
+	margin-bottom: -5px;
+}
+
+#hotwords {
+	overflow: hidden;
+	position: absolute;
+	left: 320px;
+	top: 65px;
+	width: 550px;
+	height: 20px;
+	line-height: 20px;
+}
+
+#hotwords .style-red {
+	color: #f10215;
+	width: 70px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#hotwords a {
+	float: left;
+	margin-right: 10px;
+	white-space: nowrap;
+	color: #999;
+}
+
+#navitems {
+	overflow: hidden;
+	position: absolute;
+	left: 200px;
+	bottom: 0;
+	width: 790px;
+	height: 40px;
+	padding-top: 20px;
+}
+
+#navitems .fenge {
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: -10px;
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+}
+
+#navitems .fenge,
+#navitems li,
+#navitems ul {
+	float: left;
+}
+
+#navitems li {
+	margin-left: 25px;
+}
+
+#navitems a {
+	position: relative;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+}
+
+#navitems a:hover {
+	color: red;
+}
+
+.activity {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	width: 190px;
+	height: 40px;
+}
+
+.activity a {
+	display: block;
+	width: 190px;
+	height: 40px;
+	background: url(../img/f8393481d2c9f69c.png) center no-repeat;
+}
+
+.fs_inner {
+	z-index: 1;
+	height: 480px;
+	background-color: #f0f3ef;
+	margin: 0 auto;
+	width: 1190px;
+}
+.fs-2{
+	width: 590px;
+}
+.fs-4{
+	float: right;
+}
+.cate {
+    position: relative;
+    z-index: 2;
+}
+.yinchang{
+	display: none;
+    position: absolute;
+    left: 191px;
+    top: 0;
+    width: 998px;
+    min-height: 478px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+
+}
+.cate_menu:hover+.yinchang{
+	display: block;
+	width: 998xp;
+	height: 418px;
+	background: beige;
+}
+.cate1 .cate_menu {
+    padding: 6px 0;
+    height: 468px;
+}
+.cate_menu {
+    overflow: hidden;
+    padding: 10px 0;
+    height: 460px;
+    background-color: #fefefe;
+    color: #636363;
+}
+.cate_menu_item {
+	position: relative;
+    overflow: hidden;
+    padding-left: 18px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 0;
+}
+
+.cate_menu_item:hover ul{
+	display: block;
+	width: 998px;
+	height: 478px;
+}
+
+.cate_menu_lk {
+    font-size: 14px;
+    color: #626262;
+}
+.cate_menu_line {
+    padding: 0 2px;
+    font-size: 12px;
+}
+
+.cate_menu a:hover {
+	color: #000;
+}
