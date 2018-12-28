@@ -8,20 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/layout.css" />
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
 		<script src="js/iconfont.js"></script>
-		<script type="text/javascript">
-			window.onload=function(){
-				setInterval("redom()",2000)
-			}
-			mas=["扫地机器人","全自动洗衣机","微波炉","24寸电视","笔记本电脑","奥克斯空调"]
-			function redom(){
-				var s=rd(4,0);
-				document.getElementById("key").placeholder=mas[s];
-			}
-			function rd(max,min){
-				var a=Math.floor(min+Math.random()*(max-min+1))
-				return a;
-			}
-		</script>
+		<script src="js/home.js" type="text/javascript" charset="utf-8"></script>
+
 	</head>
 	<body>
 		<div class="top">
@@ -49,6 +37,10 @@
 							</i>
 							<span class="di" title="北京">北京</span>
 						</div>
+						<div class="">
+
+						</div>
+
 					</li>
 				</ul>
 
@@ -130,10 +122,10 @@
 						<a href="" class="logo-dog-bg"></a>
 					</div>
 				</div>
-				<div class="search">
+				<div class="search"><!--搜索框-->
 					<div class="search-m">
 						<div class="form">
-							<input type="text" name="" class="text" id="key" value=""/>
+							<input type="text" name="" class="text" id="key" value="" />
 							<span class="photo-search-btn">
 								<form>
 									<span class="upload-bg"></span>
@@ -162,14 +154,14 @@
 					</div>
 				</div>
 				<div id="hotwords">
-					<a href="" class="style-red" target="_blank">旅游出行惠</a>
+					<a href="" class="style-red" id="style-red" target="_blank">好物好家电</a>
 					<a href="" target="_blank">OPPO</a>
-					<a href="" target=" _blank">建材8折</a>
+					<a href="" target="_blank">建材8折</a>
 					<a href="" target="_blank">纸品家清</a>
 					<a href="" target="_blank">珀莱雅</a>
 					<a href="" target="_blank">vivo</a>
 					<a href="" target="_blank">手机1212</a>
-					<a href="" target=" _blank">每160-60</a>
+					<a href="" target="_blank">每160-60</a>
 					<a href="" target="_blank">用券优惠</a>
 				</div>
 				<div id="navitems">
@@ -204,6 +196,7 @@
 		<div class="fs">
 			<div class="fs_inner">
 				<div class="fs-1">
+					<!--菜单-->
 					<div class="cate">
 						<ul class="cate_menu">
 							<li class="cate_menu_item">
@@ -251,71 +244,97 @@
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">汽车</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">汽车用品</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">母婴</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">玩具乐器</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">食品</a>
-								<span class="cate_menu_line">/</span> 
+								<span class="cate_menu_line">/</span>
 								<a target="_blank" class="cate_menu_lk" hreef="">酒类</a>
-								<span class="cate_menu_line">/</span> 
+								<span class="cate_menu_line">/</span>
 								<a target="_blank" class="cate_menu_lk" href="">生鲜</a>
-								<span class="cate_menu_line">/</span> 
+								<span class="cate_menu_line">/</span>
 								<a target="_blank" class="cate_menu_lk" href="">特产</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">艺术</a>
-								<span class="cate_menu_line">/</span> 
+								<span class="cate_menu_line">/</span>
 								<a target="_blank" class="cate_menu_lk" href="">礼品鲜花</a>
 								<span class="cate_menu_line">/</span>
 								<a target="_blank" class="cate_menu_lk" href="">农资绿植</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">医药保健</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">计生情趣</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">图书</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk">文娱</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk">电子书</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">机票</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">酒店</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">旅游</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">生活</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">理财</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">众筹</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">白条</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">保险</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">安装</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">维修</a>
 								<span class="cate_menu_line">/</span> <a target="_blank" class="cate_menu_lk" href="">清洗保养</a>
 							</li>
-							<li class="cate_menu_item" >
+							<li class="cate_menu_item">
 								<a target="_blank" class="cate_menu_lk" href="">工业品</a>
 							</li>
 						</ul>
-						<div class="yinchang">
+						<div class="yinchang" id="yc">
 							
 						</div>
 					</div>
 				</div>
 				<div class="fs-2">
-					<div class="">
-						
+					<!--轮播图-->
+					<div class="fs-2-center">
+						<div class="slideshow">
+							<!--轮播图div限制-->
+							<li class="lun" id="l1" style="z-index=0;">
+								<a href=""><img src="img/da15bacfd34ee524.jpg"></a>
+							</li>
+							<li class="lun" id="l2" style="z-index=0;">
+								<a href=""><img src="img/aea3d57158c2d61b.jpg" /></a>
+							</li>
+							<li class="lun" id="l3" style="z-index=0;">
+								<a href=""><img src="img/5bff668eNef47727f.jpg" /></a>
+							</li>
+							<li class="lun" id="l4" style="z-index=0;">
+								<a href=""><img src="img/0510b14010af7378.jpg" /></a>
+							</li>
+							<li class="lun" id="l5" style="z-index=0;">
+								<a href=""><img src="img/45884027cf90a1e3.jpg" /></a>
+							</li>
+							<li class="lun" id="l6" style="z-index=0;">
+								<a href=""><img src="img/aea3d57158c2d61b.jpg" /></a>
+							</li>
+							<li class="lun" id="l7" style="z-index=0;">
+								<a href=""><img src="img/ba4d2a158a54f815.jpg" /></a>
+							</li>
+							<li class="lun" id="l8" style="z-index=0;">
+								<a href=""><img src="img/5bc7c633Ned13896e.jpg" /></a>
+							</li>
+						</div>
 					</div>
 				</div>
 				<div class="fs-3">
-					
 				</div>
 				<div class="fs-4">
-					
+
 				</div>
 			</div>
 		</div>
